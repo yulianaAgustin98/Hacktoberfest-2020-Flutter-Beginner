@@ -43,6 +43,13 @@ Widget getListView() {
         subtitle: Text("Netflix"),
         trailing: Icon(Icons.stars),
       ),
+      ListTile(
+        ///new list view added
+        leading: Icon(Icons.bubble_chart),
+        title: Text("Blackish"),
+        subtitle: Text("ABC"),
+        trailing: Icon(Icons.bubble_chart),
+      ),
     ],
   );
   return listview;
