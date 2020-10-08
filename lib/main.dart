@@ -37,6 +37,14 @@ Widget getListView() {
         trailing: Icon(Icons.bubble_chart),
       ),
       ListTile(
+        ///new list view added
+        leading: Icon(Icons.stars),
+        title: Text("Stranger Things"),
+        subtitle: Text("Netflix"),
+        trailing: Icon(Icons.stars),
+      ),
+      ListTile(
+        ///new list view added
         leading: Icon(Icons.bubble_chart),
         title: Text("Blackish"),
         subtitle: Text("ABC"),
