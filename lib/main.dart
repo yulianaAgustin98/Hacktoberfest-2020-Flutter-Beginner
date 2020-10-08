@@ -42,6 +42,12 @@ Widget getListView() {
         subtitle: Text("ABC"),
         trailing: Icon(Icons.bubble_chart),
       ),
+      ListTile(
+        leading: Icon(Icons.bubble_chart),
+        title: Text("Wolf Of Wall Street "),
+        subtitle: Text("Amazon Prime Video"),
+        trailing: Icon(Icons.bubble_chart),
+      ),
     ],
   );
   return listview;
