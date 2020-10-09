@@ -50,6 +50,12 @@ Widget getListView() {
         subtitle: Text("ABC"),
         trailing: Icon(Icons.bubble_chart),
       ),
+      ListTile(
+        leading: Icon(Icons.bubble_chart),
+        title: Text("Avatar: The Last Airbender"),
+        subtitle: Text("Netflix"),
+        trailing: Icon(Icons.bubble_chart),
+      ),
     ],
   );
   return listview;
