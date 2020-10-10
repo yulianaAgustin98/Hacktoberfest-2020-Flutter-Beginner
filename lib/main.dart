@@ -64,6 +64,13 @@ Widget getListView() {
         subtitle: Text("Amazon Prime Video"),
         trailing: Icon(Icons.bubble_chart),
       ),
+      ListTile(
+        ///new list view added
+        leading: Icon(Icons.bubble_chart),
+        title: Text("Code Geass: Lelouch of the Rebellion"),
+        subtitle: Text("Netflix"),
+        trailing: Icon(Icons.bubble_chart),
+      ),
     ],
   );
   return listview;
