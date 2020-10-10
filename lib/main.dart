@@ -23,6 +23,12 @@ Widget getListView() {
         trailing: Icon(Icons.bubble_chart),
       ),
       ListTile(
+        leading: Icon(Icons.bubble_chart),
+        title: Text("Silicon Valley"),
+        subtitle: Text("Netflix"),
+        trailing: Icon(Icons.bubble_chart),
+      ),
+      ListTile(
         ///new list view added
         leading: Icon(Icons.bubble_chart),
         title: Text("Taarak Mehta ka Ooltah Chashmah"),
@@ -56,8 +62,8 @@ Widget getListView() {
         title: Text("Avatar: The Last Airbender"),
         subtitle: Text("Netflix"),
         trailing: Icon(Icons.bubble_chart),
-        ),
-        ListTile(
+      ),
+      ListTile(
         ///new list view added
         leading: Icon(Icons.bubble_chart),
         title: Text("Wolf Of Wall Street "),
