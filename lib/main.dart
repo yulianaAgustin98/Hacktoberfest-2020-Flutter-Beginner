@@ -77,6 +77,13 @@ Widget getListView() {
         subtitle: Text("Netflix"),
         trailing: Icon(Icons.bubble_chart),
       ),
+      ListTile(
+        ///new list view added
+        leading: Icon(Icons.bubble_chart),
+        title: Text("Dr. Who"),
+        subtitle: Text("BBC"),
+        trailing: Icon(Icons.bubble_chart),
+      ),
     ],
   );
   return listview;
