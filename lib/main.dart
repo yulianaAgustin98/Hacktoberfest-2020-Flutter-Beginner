@@ -119,6 +119,12 @@ Widget getListView() {
         subtitle: Text("Netflix"),
         trailing: Icon(Icons.bubble_chart),
       ),
+      ListTile(
+        leading: Icon(Icons.bubble_chart),
+        title: Text("Manifest"),
+        subtitle: Text("Amazon Prime Videos"),
+        trailing: Icon(Icons.bubble_chart),
+      ),
     ],
   );
   return listview;
