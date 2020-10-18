@@ -91,6 +91,34 @@ Widget getListView() {
         subtitle: Text("Netflix"),
         trailing: Icon(Icons.bubble_chart),
       ),
+      ListTile(
+        ///new list view added
+        leading: Icon(Icons.bubble_chart),
+        title: Text("Ragnarok"),
+        subtitle: Text("Netflix"),
+        trailing: Icon(Icons.bubble_chart),
+      ),
+      ListTile(
+        ///new list view added
+        leading: Icon(Icons.bubble_chart),
+        title: Text("Prison Break"),
+        subtitle: Text("Disney Hotstar"),
+        trailing: Icon(Icons.bubble_chart),
+      ),
+      ListTile(
+        ///new list view added
+        leading: Icon(Icons.bubble_chart),
+        title: Text("Warrior Nun"),
+        subtitle: Text("Netflix"),
+        trailing: Icon(Icons.bubble_chart),
+      ),
+      ListTile(
+        ///new list view added
+        leading: Icon(Icons.bubble_chart),
+        title: Text("The Witcher"),
+        subtitle: Text("Netflix"),
+        trailing: Icon(Icons.bubble_chart),
+      ),
     ],
   );
   return listview;
