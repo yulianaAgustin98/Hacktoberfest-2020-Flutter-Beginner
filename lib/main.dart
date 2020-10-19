@@ -121,6 +121,10 @@ Widget getListView() {
       ),
       ListTile(
         leading: Icon(Icons.bubble_chart),
+        title: Text("Young Sheldon"),
+        subtitle: Text("Amazon Prime"),
+        ),
+      ListTile(
         title: Text("Manifest"),
         subtitle: Text("Amazon Prime Videos"),
         ),
