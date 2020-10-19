@@ -120,6 +120,11 @@ Widget getListView() {
         trailing: Icon(Icons.bubble_chart),
       ),
       ListTile(
+        leading: Icon(Icons.bubble_chart),
+        title: Text("Manifest"),
+        subtitle: Text("Amazon Prime Videos"),
+        ),
+      ListTile(
         ///new list view added
         leading: Icon(Icons.bubble_chart),
         title: Text("Breaking Bad"),
