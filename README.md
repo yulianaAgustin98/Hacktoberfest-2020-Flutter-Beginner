@@ -23,7 +23,7 @@
 - [ ] Merge it. Use the ```git merge upstream/master``` command.
 - [ ] Push changes to GitHub. Use the ```git push origin master``` command.
 - [ ] Delete the unnecessary branch. Use the ```git branch -d [Branch Name]``` command.
-You can delete the version of it on GitHub, too.```git push origin --delete [Branch Name]```
+- [ ] You can delete the version of it on GitHub, too.```git push origin --delete [Branch Name]```
 
 ### Congratulations! :tada: You've made your first pull request. If your pull request is accepted you’ll receive an email. Don't worry I got you ;)
 
